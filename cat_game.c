@@ -20,9 +20,16 @@ int main(void)
         putchar('\n');
 
         printf("\nyour fur bristles. you find yourself alone in an unfamiliar room");
-        printf("\na hint of moonlight filters in from the small window above\n");
+        printf("\na hint of moonlight filters in from the small window above");
         getchar();
-        printf("\nas your eyes adjust to the darkness, you see a door with a long, protruding handle\n");
+	printf("\nyou find yourself trembling, tucked into a corner");
+	getchar();
+	printf("\nwhere have you been taken?");
+	printf("\nhow will you find your way to your family?");
+	getchar();
+	printf("\na deep longing fills your heart as you stare at the moon");
+	getchar();
+        printf("\nyour eyes adjust to the darkness, and you see a door with a long, protruding handle\n");
         getchar();
         printf("\nwhat do you do?\n");
         printf("\na. try to open the door");
@@ -34,8 +41,8 @@ int main(void)
  	if (choice == 'a')
         {
                 printf("\nyou jump up towards the handle and wrap your paws around it");
-                getchar();
                 printf("\ntriumphantly, you meow");
+		getchar();
                 printf("\nbut the success is short-lived as your paws begin to slip");
                 getchar();
                 printf("\nyou are too small to move the handle");
@@ -47,6 +54,7 @@ int main(void)
                 getchar();
                 printf("\nyour stomach sinks, your captor nears");
                 getchar();
+		putchar('\n');
                 printf("\nwhat do you do?\n");
                 printf("\na. attack the HUMAN");
                 printf("\nb. hide, then bolt through the door when it opens\n");
@@ -61,12 +69,12 @@ int main(void)
                         getchar();
                         printf("\nyou are too small to attack the HUMAN");
                         getchar();
-                        printf("\nit kicks you into the wall");
+                        printf("\nin an attempt to release itself from your grip, it kicks you into the wall");
                         getchar();
                         printf("\nthe pain is great, and your vision grows hazy");
-                        getchar();
                         printf("\nit cradles you in its arms");
-                        printf("\nyou almost think the HUMAN is sad... ");
+			getchar();
+                        printf("\nas death beckons, you realize the HUMAN is sad... ");
                         getchar();
                         printf("\ntears fall from its eyes");
                         getchar();
