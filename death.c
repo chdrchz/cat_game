@@ -5,7 +5,5 @@
 void death()
 {
 	getchar();
-	printf("^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^\n");
-	putchar('\n');
 	story();
 }

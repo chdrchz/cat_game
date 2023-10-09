@@ -7,7 +7,6 @@ void story()
 {
 	char choice;
 	
-	putchar('\n');
         printf("your fur bristles. you find yourself alone in an unfamiliar room");
         printf("\na hint of moonlight filters in from the small window above");
         getchar();
@@ -29,8 +28,9 @@ void story()
 
         if (choice == 'a') // one
         {
+		getchar();
                 printf("\nyou jump up towards the handle and wrap your paws around it");
-                printf("\ntriumphantly, you meow\n");
+                printf("\ntriumphantly, you meow");
                 getchar();
                 printf("\nbut the success is short-lived as your paws begin to slip");
                 getchar();
@@ -54,7 +54,8 @@ void story()
                 if (choice == 'a') // three
                 {
 
-                        printf("\nthe HUMAN opens the door");
+                        getchar();
+			printf("\nthe HUMAN opens the door");
                         getchar();
                         printf("\nyou lunge at its ankles with your claws outsretched");
                         printf("\nyou are too small to harm the HUMAN");
@@ -67,13 +68,17 @@ void story()
                         getchar();
                         printf("\ntears fall from its eyes");
                         getchar();
-                        printf("\nYOU DIED\n");
+			putchar('\n');
+                        printf("YOU DIED\n");
 
-			death(); // function that moved to the beginning of story
+			decoration(); // function that adds frilly tehe decoration
+
+			death(); // function that moves user to the beginning of the story
                 }
                 else if (choice == 'b') // four
                 {
-                        printf("\nthe HUMAN opens the door");
+                        getchar();
+			printf("\nthe HUMAN opens the door");
                         getchar();
                         printf("\nfrom beneath the table, you see its feet, slowly moving into the room");
                         getchar();
@@ -104,7 +109,8 @@ void story()
         }
         else if (choice == 'b') // two
         {
-                printf("\nyou jump up towards the moon and land on the windowsill");
+                getchar();
+		printf("\nyou jump up towards the moon and land on the windowsill");
                 getchar();
                 printf("\nthe moonlight shimmers across your fur");
                 printf("\nyou nudge your head against the pane and ... ");

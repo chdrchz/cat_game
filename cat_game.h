@@ -4,5 +4,6 @@
 void introduction();
 void story();
 void death();
+void decoration();
 
 #endif

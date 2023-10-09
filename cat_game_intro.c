@@ -3,14 +3,10 @@
 
 void introduction()
 {
-	printf("\nhey HUMAN... press enter\n");
+	printf("\nhey HUMAN... press enter");
 	getchar();
 	printf("\nyou are only a kitten and have been stolen from your family");
 	getchar();
-	printf("\nyou must escape\n");
+	printf("\nyou must escape");
 	getchar();
-
-	putchar('\n');
-	printf("^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^ ^.^");
-	putchar('\n');
 }
