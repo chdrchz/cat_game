@@ -55,10 +55,11 @@ void story()
                 {
 
                         getchar();
-			printf("\nthe HUMAN opens the door");
+			printf("\nthe HUMAN opens the door...");
                         getchar();
                         printf("\nyou lunge at its ankles with your claws outsretched");
-                        printf("\nyou are too small to harm the HUMAN");
+                        printf("\nbut you are too small to harm the HUMAN");
+			getchar();
                         printf("\nin an attempt to release itself from your grip, it kicks you into the wall");
                         getchar();
                         printf("\nthe pain is great, and your vision grows hazy");
@@ -122,7 +123,7 @@ void story()
                 printf("\nand to your left sits an open window");
                 getchar();
                 printf("\nwhat do you do?\n");
-                printf("\na. jump in the pool");
-                printf("\nb. slide through the open window");
+                printf("\na. jump in the pool"); // five
+                printf("\nb. slide through the open window"); // six
         }
 }

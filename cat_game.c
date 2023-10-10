@@ -4,10 +4,9 @@
 #include "cat_game_intro.c"
 #include "cat_game_story.c"
 #include "decorations.c"
-
 int main(void)
 {
-        introduction(); // game intro function (located in cat_game_intro.c)
+	introduction(); // game intro function (located in cat_game_intro.c)
 
 	decoration(); // frilly decorations for funsies
 	
